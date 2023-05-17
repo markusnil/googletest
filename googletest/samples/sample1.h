@@ -29,6 +29,8 @@
 
 // A sample program demonstrating using Google C++ testing framework.
 
+//this is a test
+
 #ifndef GOOGLETEST_SAMPLES_SAMPLE1_H_
 #define GOOGLETEST_SAMPLES_SAMPLE1_H_
 
