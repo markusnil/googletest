@@ -9,4 +9,4 @@
 
 #cd $STARTING_PATH
 echo "Compilo i file"
-g++ -o ExecSample4 sample4_unittest.cc sample4.cc -lgtest -lpthread
+g++ -o ./googletest/SWEngProject/ExecSample4 ./googletest/SWEngProject/sample4_unittest.cc ./googletest/SWEngProject/sample4.cc -lgtest -lpthread
