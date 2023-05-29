@@ -17,7 +17,7 @@ pipeline{
             steps{
                 sh 'echo "Running..."'
            
-                sh './ExecSample4'
+                sh './googletest/SWEngProject//ExecSample4'
             }
         }
 
