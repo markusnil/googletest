@@ -16,8 +16,10 @@ pipeline{
         stage('Test'){
             steps{
                 sh 'echo "Running..."'
-           
-                sh './googletest/SWEngProject//ExecSample4'
+                sh './googletest/SWEngProject/ExecSample4'
+                sh 'cd googletest/SWEngProject/DockerSwengProject'
+                sh 'docker build -t dkr4sweng_test02 .'
+                sh 'docker run -it dkr4sweng_test02'
             }
         }
 

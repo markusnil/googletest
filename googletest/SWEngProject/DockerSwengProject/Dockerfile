@@ -4,10 +4,10 @@ FROM ubuntu:latest
 
 # copy the executable file
 
-COPY sample_executable /SwengProject/sample_executable
+COPY ExecSample4 /SwengProject/ExecSample4
 
 # lounch the executable
 
-CMD ["/SwengProject/sample_executable"]
+CMD ["/SwengProject/ExecSample4"]
 
 

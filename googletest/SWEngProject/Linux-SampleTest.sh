@@ -10,3 +10,5 @@
 #cd $STARTING_PATH
 echo "Compilo i file"
 g++ -o ./googletest/SWEngProject/ExecSample4 ./googletest/SWEngProject/sample4_unittest.cc ./googletest/SWEngProject/sample4.cc -lgtest -lpthread
+echo "copy the executable to tocker folder"
+cp ./googletest/SWEngProject/ExecSample4 ./googletest/SWEngProject/DockerSwengProject/ExecSample4
