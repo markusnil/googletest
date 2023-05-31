@@ -4,8 +4,8 @@ pipeline{
         
         stage('Installation'){
             steps{
-                sh 'chmod +x ./googletest/SWEngProject/Linux-CBuild.sh'
-                sh './googletest/SWEngProject/Linux-CBuild.sh'
+                sh 'sudo chmod +x ./googletest/SWEngProject/Linux-CBuild.sh'
+                sh 'sudo ./googletest/SWEngProject/Linux-CBuild.sh'
                 sh 'ls'
             }
         }
