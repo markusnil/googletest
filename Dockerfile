@@ -9,6 +9,6 @@ FROM ubuntu:latest
 # lounch the executable
 
 #CMD ["/SwengProject/ExecSample4"]
-CMD ["echo helloWorld"]
+CMD ["/bin/bash"]
 
 
