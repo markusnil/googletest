@@ -1,6 +1,15 @@
 pipeline{
     agent any
     stages{
+        
+        stage('Installation'){
+            steps{
+                sh 'chmod +x ./googletest/SWEngProject/Linux-CBuild.sh'
+                sh './googletest/SWEngProject/Linux-CBuild.sh'
+                sh 'ls'
+            }
+        }
+        
         stage('Build'){
             steps{
                 sh 'echo "Building..."'
